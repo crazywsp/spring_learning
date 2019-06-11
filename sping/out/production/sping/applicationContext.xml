@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!--<bean name="source" class="pojo.Source">
+        <property name="fruit" value="橙子"></property>
+        <property name="sugar" value="多糖"></property>
+        <property name="size" value="超大杯"></property>
+    </bean>
+
+    <bean name="juickMaker" class="pojo.JuiceMaker">
+        <property name="source" ref="source"></property>
+    </bean>-->
+
+    <!--<bean name="produceService" class="service.ProduceService">
+    </bean>
+    <bean id="loggerAspect" class="aspect.LoggerAspect"></bean>
+
+    <aop:config>
+        <aop:pointcut id="loggerCutpoint" expression="execution(* service.ProduceService.*(..)) "/>
+        <aop:aspect id="logAspect" ref="loggerAspect">
+            <aop:around method="log" pointcut-ref="loggerCutpoint"/>
+        </aop:aspect>
+    </aop:config>
+
+    <import resource="bean.xml" />-->
+
+    <!--<context:component-scan base-package="aspect"/>
+    <context:component-scan base-package="pojo"/>
+
+    <aop:aspectj-autoproxy/>-->
+
+    <!--<bean name="landlord" class="pojo.Landlord"/>
+    <bean name="broker" class="aspect.Broker"/>
+
+    <aop:config>
+        <aop:pointcut id="landlordPoint" expression="execution(* pojo.Landlord.service())"/>
+
+        <aop:aspect id="logAspect" ref="broker">
+            <aop:around method="around" pointcut-ref="landlordPoint"/>
+        </aop:aspect>
+    </aop:config>-->
+<!--    <context:component-scan base-package="pojo"/>-->
+    <context:component-scan base-package="jdbc"/>
+<!--    <bean name="role" class="pojo.Role"/>-->
+<!--    <bean name="jdbc" class="jdbc.JDBCtest"/>-->
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+        <property name="username" value="root"/>
+        <property name="password" value="753159"/>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:5566/crazy"/>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac36d06a-1119-447e-ba81-8cab6fef5db3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/SgtPeppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_02/stereo-autoconfig/src/main/java/soundsystem/SgtPeppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/Spitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/Spitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/Spittle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/Spittle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/config/DataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/config/RootConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/config/SpitterWebInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/data/JdbcSpitterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/data/JdbcSpittleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/data/SpitterRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/data/SpittleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/RegisterForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/SpitterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/SpittleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/SpittleForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/java/spittr/web/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/registerForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/registerForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/spittle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/spittle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/spittles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/WEB-INF/views/spittles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/resources/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/main/webapp/resources/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/test/java/spittr/web/HomeControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/test/java/spittr/web/SpitterControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/test/java/spittr/web/SpittleControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringiA4_SourceCode/Chapter_05/Spittr/src/test/resources/log4j.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/StudentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pojo/Role.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestSpringAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/JDBCtest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcTemplateDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Ipet/ipet_java/ipet_web_lib/spring-jdbc-4.1.9.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>landlord</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pojo/Source.java" />
+        <option value="$PROJECT_DIR$/src/package.json" />
+        <option value="$PROJECT_DIR$/spring01/src/test/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/pojo/JuiceMaker.java" />
+        <option value="$PROJECT_DIR$/src/service/ProduceService.java" />
+        <option value="$PROJECT_DIR$/src/aspect/LoggerAspect.java" />
+        <option value="$PROJECT_DIR$/src/bean.xml" />
+        <option value="$PROJECT_DIR$/src/pojo/Source.java" />
+        <option value="$PROJECT_DIR$/src/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/src/pojo/StudentConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/test/TestAutowired.java" />
+        <option value="$PROJECT_DIR$/src/service/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/pojo/ELBean.java" />
+        <option value="$PROJECT_DIR$/src/pojo/Landlord.java" />
+        <option value="$PROJECT_DIR$/src/aspect/Broker.java" />
+        <option value="$PROJECT_DIR$/src/test/TestSpringAop.java" />
+        <option value="$PROJECT_DIR$/src/config/StudentConfig.java" />
+        <option value="$PROJECT_DIR$/src/pojo/Role.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/jdbc/JDBCtest.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcTemplateDemo1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/software/maven" />
+        <option name="userSettingsFile" value="E:\software\maven-repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="739" />
+    <option name="y" value="27" />
+    <option name="width" value="1184" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="D:/Ipet/ipet_java/ipet_web_lib" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32620817" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace04\sping\spring01\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JdbcTemplateDemo1.saveUser">
+    <configuration name="TestAutowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAutowired" />
+      <module name="sping" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSpringAop" />
+      <module name="sping" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo1.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcTemplateDemo1" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sping" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sping" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpring" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JdbcTemplateDemo1.saveUser" />
+        <item itemvalue="Application.TestSpringAop" />
+        <item itemvalue="Application.TestAutowired" />
+        <item itemvalue="JUnit.TestSpring.test02" />
+        <item itemvalue="JUnit.TestSpring.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac36d06a-1119-447e-ba81-8cab6fef5db3" name="Default Changelist" comment="" />
+      <created>1559985831624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559985831624</updated>
+      <workItem from="1559985833346" duration="13090000" />
+      <workItem from="1560041240275" duration="10463000" />
+      <workItem from="1560130089287" duration="1291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSpring_test - 2019.06.08 at 20h 25m 30s.xml">
+      <configuration name="TestSpring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test01 - 2019.06.08 at 20h 50m 54s.xml">
+      <configuration name="TestSpring.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test01 - 2019.06.08 at 21h 11m 41s.xml">
+      <configuration name="TestSpring.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test - 2019.06.08 at 21h 43m 30s.xml">
+      <configuration name="TestSpring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test - 2019.06.08 at 21h 44m 08s.xml">
+      <configuration name="TestSpring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test - 2019.06.08 at 21h 46m 52s.xml">
+      <configuration name="TestSpring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test - 2019.06.08 at 21h 53m 11s.xml">
+      <configuration name="TestSpring.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.06.08 at 22h 13m 10s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSpring_test02 - 2019.06.08 at 22h 14m 57s.xml">
+      <configuration name="TestSpring.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcTemplateDemo1_saveUser - 2019.06.09 at 11h 54m 53s.xml">
+      <configuration name="JdbcTemplateDemo1.saveUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24844000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="739" y="27" width="1184" height="1014" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647059" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3789127" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42823344" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5023511" side_tool="true" weight="0.3278496" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4976489" weight="0.32752612" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32994923" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26489028" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5023511" side_tool="true" weight="0.32893652" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4976489" weight="0.32893652" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.3282572" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="JSF" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="9" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/TestSpringAop.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+    <entry file="file://$PROJECT_DIR$/pojo/Source.java" />
+    <entry file="file://$PROJECT_DIR$/src/package.json" />
+    <entry file="file://$PROJECT_DIR$/sping.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring01/src/pojo/Source.java" />
+    <entry file="file://$PROJECT_DIR$/spring01/src/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/spring01/src/test/TestSpring.java" />
+    <entry file="file://$PROJECT_DIR$/src/pojo/JuiceMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ProduceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestSpring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/ELBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Landlord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aspect/LoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aspect/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/StudentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pojo/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestSpringAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcTemplateDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Ipet/ipet_java/ipet_web_lib/spring-jdbc-4.1.9.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JDBCtest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|sping</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32620817" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.thymeleaf:thymeleaf-spring4:Release</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32620817" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

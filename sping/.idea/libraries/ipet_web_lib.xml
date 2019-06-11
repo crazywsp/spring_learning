@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ipet_web_lib">
+    <CLASSES>
+      <root url="file://D:/Ipet/ipet_java/ipet_web_lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Ipet/ipet_java/ipet_web_lib" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Ipet/ipet_java/ipet_web_lib" recursive="false" />
+    <jarDirectory url="file://D:/Ipet/ipet_java/ipet_web_lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
